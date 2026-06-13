@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ecomm-web:war" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57092e0c-4a57-4e2b-ad5d-7a368e992fbd" name="Changes" comment="Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/web/servlet/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/web/servlet/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,79 +28,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Chanuka-Rukshan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Chanuka-Rukshan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Chanuka-Rukshan/ecomm-web.git",
-    "accountId": "d9b00b2b-1668-4d84-8f62-f7ee52531368"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Chanuka-Rukshan/ecomm-web.git&quot;,
+    &quot;accountId&quot;: &quot;d9b00b2b-1668-4d84-8f62-f7ee52531368&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.8715496437793852E-58" />
-      <entry key="MS500" value="3.1018676664388514E-12" />
-      <entry key="S2" value="0.0013276543647288267" />
-      <entry key="S5" value="0.07378816586555424" />
-      <entry key="S10" value="0.3231686489132752" />
-      <entry key="S30" value="1.2497761173552024" />
-      <entry key="S60" value="2.2403883216190916" />
-      <entry key="M2" value="3.3234167239826777" />
-      <entry key="M5" value="5.331729107428818" />
-      <entry key="M10" value="8.621293906697293" />
-      <entry key="M15" value="11.05588745727664" />
-      <entry key="M30" value="14.985663229851689" />
-      <entry key="H1" value="18.17120897677584" />
-      <entry key="H2" value="20.82800653620267" />
-      <entry key="H4" value="22.90063342486165" />
-      <entry key="D1" value="25.383106981161188" />
-      <entry key="W1" value="25.908907730289403" />
+      <entry key="MS100" value="4.4830377550978904E-49" />
+      <entry key="MS500" value="2.1395111191802631E-10" />
+      <entry key="S2" value="0.003941003352942034" />
+      <entry key="S5" value="0.14809807732455876" />
+      <entry key="S10" value="0.6251949120960288" />
+      <entry key="S30" value="2.1383231123597364" />
+      <entry key="S60" value="3.541443462884885" />
+      <entry key="M2" value="5.548984503025867" />
+      <entry key="M5" value="9.069461915775065" />
+      <entry key="M10" value="13.102158877019162" />
+      <entry key="M15" value="15.948215345389144" />
+      <entry key="M30" value="20.584046550971863" />
+      <entry key="H1" value="24.32958432301538" />
+      <entry key="H2" value="27.349478704180907" />
+      <entry key="H4" value="29.63917839777926" />
+      <entry key="D1" value="32.33513878809734" />
+      <entry key="W1" value="32.90192271396123" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000009085063917" />
-      <entry key="MS500" value="1.0619017279393084" />
-      <entry key="S2" value="1.5473931128633454" />
-      <entry key="S5" value="2.1226662091515354" />
-      <entry key="S10" value="2.8229783115364357" />
-      <entry key="S30" value="4.52906636587173" />
-      <entry key="S60" value="5.884243423970934" />
-      <entry key="M2" value="7.257058825974349" />
-      <entry key="M5" value="9.445644601495733" />
-      <entry key="M10" value="12.255963364202705" />
-      <entry key="M15" value="14.209638933299244" />
-      <entry key="M30" value="17.260593654787954" />
-      <entry key="H1" value="19.721851740732543" />
-      <entry key="H2" value="21.973597882300016" />
-      <entry key="H4" value="23.90341760328416" />
-      <entry key="D1" value="26.367951897627908" />
-      <entry key="W1" value="26.906253915780784" />
+      <entry key="MS100" value="1.0000000001374856" />
+      <entry key="MS500" value="1.010674056210267" />
+      <entry key="S2" value="1.4132551069379453" />
+      <entry key="S5" value="2.369750646540437" />
+      <entry key="S10" value="3.5897153956025676" />
+      <entry key="S30" value="6.2970648468862" />
+      <entry key="S60" value="8.704181930461491" />
+      <entry key="M2" value="11.89224089685226" />
+      <entry key="M5" value="16.792055109675992" />
+      <entry key="M10" value="21.078028770602362" />
+      <entry key="M15" value="23.721441973505996" />
+      <entry key="M30" value="27.731804185600698" />
+      <entry key="H1" value="30.844791243775973" />
+      <entry key="H2" value="33.48547327665884" />
+      <entry key="H4" value="35.638620059585996" />
+      <entry key="D1" value="38.3194591751155" />
+      <entry key="W1" value="38.89919098829725" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.752193917543091E-5" />
-      <entry key="MS500" value="0.16639428559230213" />
-      <entry key="S2" value="0.9841626725890246" />
-      <entry key="S5" value="1.813033573563605" />
-      <entry key="S10" value="2.830123489451081" />
-      <entry key="S30" value="5.557902512536067" />
-      <entry key="S60" value="7.96602603500751" />
-      <entry key="M2" value="10.473937841302654" />
-      <entry key="M5" value="14.712358211628255" />
-      <entry key="M10" value="20.828681164801807" />
-      <entry key="M15" value="25.225599219784012" />
-      <entry key="M30" value="32.22041564067044" />
-      <entry key="H1" value="37.877921029937255" />
-      <entry key="H2" value="42.79317760829605" />
-      <entry key="H4" value="46.79951602382001" />
-      <entry key="D1" value="51.75023989649016" />
-      <entry key="W1" value="52.81504274862409" />
+      <entry key="MS100" value="1.0804022684545516E-6" />
+      <entry key="MS500" value="0.06537209694544653" />
+      <entry key="S2" value="0.7509549564398359" />
+      <entry key="S5" value="2.004247078583228" />
+      <entry key="S10" value="3.7954583166282925" />
+      <entry key="S30" value="8.153379673314362" />
+      <entry key="S60" value="12.022318570923844" />
+      <entry key="M2" value="17.263183097508666" />
+      <entry key="M5" value="25.744075783231334" />
+      <entry key="M10" value="34.09888787173538" />
+      <entry key="M15" value="39.6057690658738" />
+      <entry key="M30" value="48.276448142952574" />
+      <entry key="H1" value="55.1518908366064" />
+      <entry key="H2" value="60.822679943963216" />
+      <entry key="H4" value="65.27129160117485" />
+      <entry key="D1" value="70.65344263619446" />
+      <entry key="W1" value="71.80094655072372" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,19 +117,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "GlassFish Server.GlassFish 7.0.0.executor": "Run",
     "Maven.ecomm-web [clean,compile,package].executor": "Run",
     "Maven.ecomm-web [clean].executor": "Run",
     "Maven.ecomm-web [compile].executor": "Run",
     "Maven.ecomm-web [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Payara Server.Payara 6.2025.11.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/K.A.Chanuka Rukshan/IdeaProjects/BCD/Practicles/ecomm-web",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -136,6 +144,80 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="GlassfishConfiguration">
+          <value>
+            <map>
+              <entry key="GlassFish 7.0.0" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="GlassFish 7.0.0" type="GlassfishConfiguration" factoryName="Remote" APPLICATION_SERVER_NAME="GlassFish 7.0.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="LOCAL" value="false" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ecomm-web:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="adminServerHost" value="" />
+          <option name="clusterName" value="" />
+          <option name="stagingRemotePath" value="" />
+          <option name="transportHostId" />
+          <option name="transportStagingTarget">
+            <TransportTarget>
+              <option name="id" value="f9648743-d380-4057-9599-84448bf429a2" />
+              <id>f9648743-d380-4057-9599-84448bf429a2</id>
+            </TransportTarget>
+          </option>
+          <admin-server-host />
+          <cluster-name />
+          <transport-target>
+            <TransportTarget>
+              <option name="id" value="f9648743-d380-4057-9599-84448bf429a2" />
+              <id>f9648743-d380-4057-9599-84448bf429a2</id>
+            </TransportTarget>
+          </transport-target>
+          <staging-path />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="11581" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ecomm-web:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="GlassfishConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -152,7 +234,10 @@
       <option name="presentableId" value="Default" />
       <updated>1781327691878</updated>
       <workItem from="1781327695036" duration="113000" />
-      <workItem from="1781330827645" duration="4808000" />
+      <workItem from="1781330827645" duration="4844000" />
+      <workItem from="1781362580241" duration="272000" />
+      <workItem from="1781362981664" duration="1644000" />
+      <workItem from="1781367737028" duration="4796000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <option name="closed" value="true" />
@@ -162,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781338078681</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done">
+      <option name="closed" value="true" />
+      <created>1781345668356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781345668356</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
