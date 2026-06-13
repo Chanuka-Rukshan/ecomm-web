@@ -4,24 +4,109 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57092e0c-4a57-4e2b-ad5d-7a368e992fbd" name="Changes" comment="" />
+    <list default="true" id="57092e0c-4a57-4e2b-ad5d-7a368e992fbd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/web/servlet/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Chanuka-Rukshan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Chanuka-Rukshan/ecomm-web.git",
+    "accountId": "d9b00b2b-1668-4d84-8f62-f7ee52531368"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="7.42884095021286E-12" />
+      <entry key="MS500" value="0.005945442893903742" />
+      <entry key="S2" value="0.27769420635012926" />
+      <entry key="S5" value="0.6166873471183105" />
+      <entry key="S10" value="0.9852135357798621" />
+      <entry key="S30" value="2.1215767089042576" />
+      <entry key="S60" value="2.850163347728389" />
+      <entry key="M2" value="3.358634653399114" />
+      <entry key="M5" value="3.7252999356296574" />
+      <entry key="M10" value="3.859418045271459" />
+      <entry key="M15" value="3.9055443314865026" />
+      <entry key="M30" value="3.9524008538856896" />
+      <entry key="H1" value="3.9761068162379107" />
+      <entry key="H2" value="3.988029906847195" />
+      <entry key="H4" value="3.994009065733836" />
+      <entry key="D1" value="3.9990006921686625" />
+      <entry key="W1" value="3.999857221672718" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000018" />
+      <entry key="S2" value="1.0002276292002221" />
+      <entry key="S5" value="1.053163447037885" />
+      <entry key="S10" value="1.4040383585459797" />
+      <entry key="S30" value="2.79342621493028" />
+      <entry key="S60" value="3.664445399771438" />
+      <entry key="M2" value="4.260284569733469" />
+      <entry key="M5" value="4.684666721173927" />
+      <entry key="M10" value="4.838890037324319" />
+      <entry key="M15" value="4.891812408389114" />
+      <entry key="M30" value="4.94551170763592" />
+      <entry key="H1" value="4.972656467988169" />
+      <entry key="H2" value="4.98630329165143" />
+      <entry key="H4" value="4.993145398212015" />
+      <entry key="D1" value="4.998856697621669" />
+      <entry key="W1" value="4.999836649800022" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.555860140770584E-4" />
+      <entry key="MS500" value="0.17319233583081609" />
+      <entry key="S2" value="0.7307981107906801" />
+      <entry key="S5" value="1.27263038725075" />
+      <entry key="S10" value="2.091818434647872" />
+      <entry key="S30" value="4.733750733366375" />
+      <entry key="S60" value="6.40021427579891" />
+      <entry key="M2" value="7.553701992420367" />
+      <entry key="M5" value="8.381607221428103" />
+      <entry key="M10" value="8.683716372088258" />
+      <entry key="M15" value="8.787534747214977" />
+      <entry key="M30" value="8.89295379716151" />
+      <entry key="H1" value="8.946271831781601" />
+      <entry key="H2" value="8.973084438531565" />
+      <entry key="H4" value="8.98652932349454" />
+      <entry key="D1" value="8.997753093921727" />
+      <entry key="W1" value="8.999678969469823" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3F4H6obVJdbRBgmlZurtvaiVNib" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,6 +122,11 @@
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
@@ -58,6 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1781327691878</updated>
       <workItem from="1781327695036" duration="113000" />
+      <workItem from="1781330827645" duration="1331000" />
     </task>
     <servers />
   </component>
