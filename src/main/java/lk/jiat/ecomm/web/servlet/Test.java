@@ -5,6 +5,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import lk.jiat.ecomm.user.dto.UserDTO;
 import lk.jiat.ecomm.user.remote.TestRemote;
 import lk.jiat.ecomm.user.remote.UserRemote;
@@ -21,15 +22,24 @@ public class Test extends HttpServlet {
         resp.getWriter().write("Ecomm Web module Test");
 
         try {
-            InitialContext ic = new InitialContext();
-            TestRemote testRemote = (TestRemote)
-                    ic.lookup("java:global/ecomm-user-1.0/TestSessionBean");
+            TestRemote tr;
+            HttpSession session = req.getSession();
+            if (session.getAttribute("testBean") == null) {
+                InitialContext ic = new InitialContext();
+                tr = (TestRemote) ic.lookup("testBean");
+                session.setAttribute("testSession", tr);
+            } else {
+                tr = (TestRemote) session.getAttribute("testBean");
+            }
 
-            String test = testRemote.test();
-            resp.getWriter().write("Result:" + test);
+            String test = tr.test();
+            resp.getWriter().write("Result: " + test);
 
         } catch (NamingException e) {
             throw new RuntimeException(e);
         }
     }
 }
+
+
+//Page Scope, Request Scope, Session Scope, Application Scope
